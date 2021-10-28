@@ -1,0 +1,75 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 90 ciObject found
+ciMethod java/lang/String compareTo (Ljava/lang/String;)I 2833 16617 2424 0 -1
+ciMethod java/lang/String compareTo (Ljava/lang/Object;)I 4097 1 6048 0 -1
+ciMethodData java/lang/String compareTo (Ljava/lang/Object;)I 2 6048 orig 264 184 126 41 85 0 0 0 0 200 114 1 21 0 0 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 1 173 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 3 0 1 0 96 0 0 0 255 255 255 255 4 0 2 0 0 0 0 0 data 12 0x20004 0x0 0x33adb50 0x15a0 0x0 0x0 0x50005 0x64 0x33adb50 0x153c 0x0 0x0 oops 2 2 java/lang/String 8 java/lang/String
+instanceKlass sun/java2d/pipe/hw/AccelDeviceEventNotifier
+instanceKlass sun/awt/windows/WToolkit$$Lambda$16
+instanceKlass sun/awt/image/BufImgSurfaceData$ICMColorData
+instanceKlass java/awt/image/BufferedImage$1
+instanceKlass java/awt/image/WritableRenderedImage
+instanceKlass java/awt/image/RenderedImage
+instanceKlass sun/awt/image/NativeLibLoader$1
+instanceKlass sun/awt/image/NativeLibLoader
+instanceKlass java/awt/image/SampleModel
+instanceKlass java/awt/image/DataBuffer$1
+instanceKlass sun/awt/image/SunWritableRaster$DataStealer
+instanceKlass java/awt/image/DataBuffer
+instanceKlass java/awt/image/Raster
+instanceKlass javax/swing/RepaintManager$DisplayChangedRunnable
+instanceKlass java/util/WeakHashMap$HashIterator
+instanceKlass sun/awt/windows/WToolkit$3
+instanceKlass sun/awt/SunToolkit$1
+instanceKlass java/awt/KeyboardFocusManager$2
+instanceKlass java/awt/LightweightDispatcher$2
+instanceKlass javax/swing/text/DefaultHighlighter$HighlightInfo
+instanceKlass javax/swing/Autoscroller
+instanceKlass javax/swing/text/DefaultCaret$1
+instanceKlass javax/swing/Timer$1
+instanceKlass java/awt/AWTEvent$2
+instanceKlass java/awt/Toolkit$SelectiveAWTEventListener
+instanceKlass java/awt/LightweightDispatcher$1
+instanceKlass java/awt/Container$MouseEventTargetFilter
+instanceKlass java/awt/Container$EventTargetFilter
+instanceKlass javax/swing/RepaintManager$3
+instanceKlass javax/swing/TimerQueue$DelayedTimer
+instanceKlass java/util/concurrent/Delayed
+instanceKlass javax/swing/TimerQueue$1
+instanceKlass java/util/concurrent/BlockingQueue
+instanceKlass javax/swing/TimerQueue
+instanceKlass java/text/AttributedString$AttributedStringIterator
+instanceKlass java/text/AttributedCharacterIterator
+instanceKlass java/text/AttributedString
+instanceKlass sun/awt/im/CompositionAreaHandler
+instanceKlass java/util/Collections$EmptyIterator
+instanceKlass javax/swing/text/JTextComponent$InputMethodRequestsHandler
+instanceKlass sun/util/locale/InternalLocaleBuilder$CaseInsensitiveChar
+instanceKlass sun/util/locale/InternalLocaleBuilder
+instanceKlass sun/util/locale/StringTokenIterator
+instanceKlass sun/util/locale/ParseStatus
+instanceKlass sun/util/locale/LanguageTag
+instanceKlass sun/awt/im/InputMethodAdapter
+instanceKlass java/awt/im/spi/InputMethod
+instanceKlass java/awt/im/spi/InputMethodContext
+instanceKlass java/awt/im/InputMethodRequests
+instanceKlass java/awt/im/InputContext
+instanceKlass java/awt/KeyboardFocusManager$3
+instanceKlass java/lang/StrictMath
+instanceKlass sun/font/StandardGlyphVector$GlyphStrike
+instanceKlass java/awt/font/GlyphVector
+instanceKlass sun/awt/image/MultiResolutionImage
+instanceKlass sun/java2d/d3d/D3DPaints
+instanceKlass java/awt/GradientPaint
+instanceKlass sun/swing/ImageCache$Entry
+instanceKlass sun/swing/ImageCache
+instanceKlass sun/swing/CachedPainter
+instanceKlass javax/swing/plaf/metal/MetalUtils
+instanceKlass sun/java2d/loops/FontInfo
+instanceKlass java/awt/PrintGraphics
+instanceKlass java/awt/print/PrinterGraphics
+instanceKlass sun/awt/SunGraphicsCallback
+instanceKlass sun/java2d/d3d/D3DScreenUpdateManager$$Lambda$15
+instanceKlass sun/java2d/pipe/BufferedPaints
+instanceKlass sun/java2d/d3d/D3DSurfaceData$1

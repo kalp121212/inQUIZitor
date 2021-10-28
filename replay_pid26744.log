@@ -1,0 +1,56 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 110 ciObject found
+ciMethod java/lang/Object hashCode ()I 2049 1 256 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 2105 1 2211 0 -1
+ciMethod java/lang/String equals (Ljava/lang/Object;)Z 2121 10801 3392 0 -1
+ciMethod java/util/HashMap hash (Ljava/lang/Object;)I 2153 1 12249 0 160
+ciMethod java/util/HashMap get (Ljava/lang/Object;)Ljava/lang/Object; 2161 1 5390 0 -1
+ciMethod java/util/HashMap getNode (ILjava/lang/Object;)Ljava/util/HashMap$Node; 2049 9 5561 0 992
+ciMethod java/util/HashMap$TreeNode getTreeNode (ILjava/lang/Object;)Ljava/util/HashMap$TreeNode; 0 0 1 0 -1
+ciMethod java/net/URL equals (Ljava/lang/Object;)Z 33 1 4 0 -1
+ciMethod java/security/CodeSource equals (Ljava/lang/Object;)Z 33 1 4 0 0
+ciMethod java/security/CodeSource matchCerts (Ljava/security/CodeSource;Z)Z 33 1 4 0 -1
+ciMethodData java/util/HashMap hash (Ljava/lang/Object;)I 2 12249 orig 264 184 126 41 85 0 0 0 0 168 14 157 20 0 0 0 0 176 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13 1 0 0 97 118 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 4 0 1 0 104 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 13 0x10007 0x2e7d 0x38 0x4f 0x50003 0x4f 0x48 0x90005 0x149f 0x2bc8d60 0x19bf 0x152ce780 0x1f oops 2 9 java/lang/String 11 java/io/File
+ciMethodData java/util/HashMap getNode (ILjava/lang/Object;)Ljava/util/HashMap$Node; 2 5561 orig 264 184 126 41 85 0 0 0 0 224 23 157 20 0 0 0 0 8 4 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 201 165 0 0 177 3 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 37 0 4 0 1 0 176 2 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 86 0x60007 0x18 0x2b0 0x14a1 0xe0007 0x0 0x290 0x14a1 0x1c0007 0x2ab 0x270 0x11f6 0x250007 0x4fb 0xb0 0xcfb 0x310007 0xb25 0x90 0x1d6 0x350007 0x0 0x70 0x1d6 0x3b0005 0x0 0x2bc8d60 0x1d2 0x16c840f0 0x4 0x3e0007 0x0 0x20 0x1d6 0x4c0007 0x3c7 0x1a0 0x134 0x510004 0xfffffffffffffecc 0x0 0x0 0x0 0x0 0x540007 0x134 0x80 0x0 0x590004 0x0 0x0 0x0 0x0 0x0 0x5e0005 0x0 0x0 0x0 0x0 0x0 0x680007 0x76 0xb0 0xe3 0x740007 0x8b 0x90 0x58 0x780007 0x0 0x70 0x58 0x7e0005 0x0 0x2bc8d60 0x58 0x0 0x0 0x810007 0x0 0x20 0x58 0x8f0007 0x25 0xffffffffffffff50 0x51 oops 3 26 java/lang/String 28 java/security/CodeSource 74 java/lang/String
+ciMethodData java/util/HashMap get (Ljava/lang/Object;)Ljava/lang/Object; 2 5390 orig 264 184 126 41 85 0 0 0 0 192 22 157 20 0 0 0 0 200 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14 1 0 0 1 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 10 0 3 0 1 0 120 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 15 0x20002 0x13ff 0x60005 0x3c 0x152cac80 0x1320 0x152cb010 0xa3 0xb0007 0xe49 0x38 0x5b6 0xf0003 0x5b6 0x18 oops 2 4 java/util/HashMap 6 javax/swing/UIDefaults$TextAndMnemonicHashMap
+instanceKlass javax/swing/RepaintManager$DisplayChangedRunnable
+instanceKlass sun/awt/image/BufImgSurfaceData$ICMColorData
+instanceKlass java/awt/image/BufferedImage$1
+instanceKlass java/awt/image/WritableRenderedImage
+instanceKlass java/awt/image/RenderedImage
+instanceKlass sun/awt/image/NativeLibLoader$1
+instanceKlass sun/awt/image/NativeLibLoader
+instanceKlass java/awt/image/SampleModel
+instanceKlass java/awt/image/DataBuffer$1
+instanceKlass sun/awt/image/SunWritableRaster$DataStealer
+instanceKlass java/awt/image/DataBuffer
+instanceKlass java/awt/image/Raster
+instanceKlass java/util/WeakHashMap$HashIterator
+instanceKlass sun/awt/windows/WToolkit$3
+instanceKlass sun/java2d/pipe/hw/AccelDeviceEventNotifier
+instanceKlass sun/awt/windows/WToolkit$$Lambda$16
+instanceKlass sun/awt/SunToolkit$1
+instanceKlass java/awt/KeyboardFocusManager$2
+instanceKlass java/awt/LightweightDispatcher$2
+instanceKlass javax/swing/text/DefaultCaret$1
+instanceKlass javax/swing/text/AbstractDocument$UndoRedoDocumentEvent
+instanceKlass javax/swing/text/GapContent$UndoPosRef
+instanceKlass javax/swing/Timer$1
+instanceKlass javax/swing/RepaintManager$3
+instanceKlass java/awt/AWTEvent$2
+instanceKlass java/awt/Toolkit$SelectiveAWTEventListener
+instanceKlass java/awt/LightweightDispatcher$1
+instanceKlass java/awt/Container$MouseEventTargetFilter
+instanceKlass java/awt/Container$EventTargetFilter
+instanceKlass javax/swing/TimerQueue$DelayedTimer
+instanceKlass java/util/concurrent/Delayed
+instanceKlass javax/swing/TimerQueue$1
+instanceKlass java/util/concurrent/BlockingQueue
+instanceKlass javax/swing/TimerQueue
+instanceKlass java/text/AttributedString$AttributedStringIterator
+instanceKlass java/text/AttributedCharacterIterator
+instanceKlass java/text/AttributedString
+instanceKlass sun/awt/im/CompositionAreaHandler
+instanceKlass java/util/Collections$EmptyIterator
